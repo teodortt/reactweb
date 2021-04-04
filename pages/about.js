@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react"
-import emailjs from 'emailjs-com';
+import React, { useState } from "react"
 import dynamic from "next/dynamic";
 
 const AboutPage = () => {
 
-    useEffect(() => {
+    React.useEffect(() => {
         document.title = 'За нас - Уеб Дизайн, СЕО Оптимизация, Онлайн Магазин, Реклама'
     }, [])
 

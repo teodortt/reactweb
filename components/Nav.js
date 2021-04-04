@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Head from 'next/head'
 import { useRouter } from "next/router";
 
 export const Nav = () => {
@@ -28,21 +27,6 @@ export const Nav = () => {
 
     return (
         <div className="nav">
-
-            <Head>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-DXN9NX1ETW"></script>
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-DXN9NX1ETW');`
-                    }}
-                />
-            </Head>
-
-
             <input type="checkbox" id="nav-check" />
             <div className="nav-header">
                 <div className="nav-title" role="button">

@@ -19,7 +19,7 @@ export default function Home() {
       <Head>
         <title>Изработка на Уеб Сайт, Онлайн Магазин и СЕО Оптимизация, Реклама, Маркетинг</title>
         <meta name="description" content="Изработка на Уеб Сайт, Онлайн Магазин, СЕО Оптимизация и Реклама на достъпна цена. Дигитален маркетинг" />
-        <meta name="keywords" content="Онлайн магазин, Уебсайт, Уебдизайн, Изработка, Wordpress, Opencart, Реклама, евтин уебсайт, Google adwords, graphic design, web developer" />
+        <meta name="keywords" content="Онлайн магазин, Уебсайт, Уеб дизайн, Изработка, Wordpress, Opencart, Реклама, евтин уебсайт, Google adwords, graphic design, web developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -93,13 +93,13 @@ export default function Home() {
             <div className="col-sm features">
               <i className="fa fa-hand-o-up"></i>
               <p>
-                1. Избор на домейн и хостинг за Вашият сайт
+                1. Избор на домейн и хостинг за Вашия сайт
               </p>
             </div>
             <div className="col-sm features">
               <i className="fa fa-window-restore"></i>
               <p>
-                2. Техническо задание - Какъв вид ще е уебсайта <br></br>(продуктов, информационен), съдържание, структура и дизайн
+                2. Техническо задание - Какъв тип ще е уебсайтът <br></br> (продуктов, информационен), съдържание, структура и дизайн
       </p>
             </div>
             <div className="col-sm features">

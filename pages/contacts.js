@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import emailjs from 'emailjs-com';
 const Contacts = () => {
     const [show, setShow] = useState(false);
 
-    useEffect(() => {
+    React.useEffect(() => {
         document.title = 'Контакти - WebDesign, Онлайн Магазин, Реклама, Маркетинг- ReactWeb.INFO'
     }, [])
 
@@ -34,7 +34,7 @@ const Contacts = () => {
             <main class="container-fluid">
                 <div className="row">
                     <div className="col-sm pb-3 pt-4">
-                        <p>Мобилен номер: <b>0885124690</b></p>
+                        <p>Мобилен номер: <b>0885124690 / 0885629736</b></p>
                         <p>Email: <a style={{ color: 'white' }} href="mailto:admin@reactweb.info">admin@reactweb.info</a></p>
                     </div>
                 </div>
