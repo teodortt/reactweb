@@ -852,9 +852,15 @@ $bp-lg: 800px;
 	margin: 20px auto;
 }
 .active{
-  background:rgb(29, 83, 95, 0.3);
+  background:rgba(6, 9, 10, 0.3);
 }
 
+ @media screen and (max-width: 600px) {
+.fl-left{
+  text-align: left;
+  padding-left: 15% !important;
+}
+}
 // .columns {
 // 	display: flex;
 // 	flex-flow: row wrap;

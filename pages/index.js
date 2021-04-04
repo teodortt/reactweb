@@ -129,7 +129,7 @@ export default function Home() {
             <h3>Защо да изберете нас?</h3>
 
             <div className="row">
-              <div className="col-sm">
+              <div className="col-sm fl-left">
                 <ul>
                   <li>Лек и оптимизиран сайт</li>
                   <li>Бърза изработка</li>
@@ -137,7 +137,7 @@ export default function Home() {
                   <li>Пакет All in One</li>
                 </ul>
               </div>
-              <div className="col-sm" id='things'>
+              <div className="col-sm fl-left" id='things'>
                 <ul>
                   <li>Адаптивен дизайн</li>
                   <li>Демо версия</li>
