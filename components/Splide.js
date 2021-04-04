@@ -18,6 +18,8 @@ const SplideJSAbout = () => {
                 breakpoints: {
                     640: {
                         perPage: 1,
+                        fixedHeight: 150,
+                        fixedWidth: 280
                     },
                 }
             }}
@@ -25,25 +27,25 @@ const SplideJSAbout = () => {
 
             <SplideSlide>
                 <a target="_blank" href="https://helium.bg">
-                    <img src="https://i.postimg.cc/DZx43cC4/heliumBG.png" alt="helium.bg" />
+                    <img src="static/heliumBG.png" alt="helium.bg" className="splidec" />
                 </a>
             </SplideSlide>
 
             <SplideSlide>
                 <a target="_blank" href="https://visentto.com">
-                    <img src="https://i.postimg.cc/nrMjFQ5R/viSS.png" alt="visentto.com" />
+                    <img src="static/viSS.png" alt="visentto.com" className="splidec" />
                 </a>
             </SplideSlide>
 
             <SplideSlide>
                 <a target="_blank" href="https://centralparktours.net">
-                    <img src="https://i.postimg.cc/hGb7pnTr/CPT.png" alt="centralparktours.net" />
+                    <img src="static/CPT.png" alt="centralparktours.net" className="splidec" />
                 </a>
             </SplideSlide>
 
             <SplideSlide>
                 <a target="_blank" href="https://heliumhosts.com">
-                    <img src="https://i.postimg.cc/cHxtzzcN/hh-com.png" alt="heliumhosts.com" />
+                    <img src="static/hhosts.png" alt="heliumhosts.com" className="splidec" />
                 </a>
             </SplideSlide>
 

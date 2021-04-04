@@ -18,6 +18,8 @@ export default function Home() {
     <div>
       <Head>
         <title>Изработка на Уеб Сайт, Онлайн Магазин и СЕО Оптимизация, Реклама, Маркетинг</title>
+        <meta name="description" content="Изработка на Уеб Сайт, Онлайн Магазин, СЕО Оптимизация и Реклама на достъпна цена. Дигитален маркетинг" />
+        <meta name="keywords" content="Онлайн магазин, Уебсайт, Уебдизайн, Изработка, Wordpress, Opencart, Реклама, евтин уебсайт, Google adwords, graphic design, web developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -45,18 +47,18 @@ export default function Home() {
 
 
             <div className="col-sm col-rev">
-              <i><img className="rev-icons" src="https://i.postimg.cc/K4wtK8hw/web-design.png" /></i>
+              <i><img className="rev-icons" alt="web design" src="static/web-design.png" /></i>
               <Link href="/services#website"><b type="button">Изработка на сайт и професионален уеб дизайн.</b></Link>
             </div>
 
             <div className="col-sm col-rev">
-              <i><img className="rev-icons" src="https://i.postimg.cc/WzSn4V3c/shopping-bag.png" /></i>
+              <i><img className="rev-icons" alt="shopping bag" src="static/shopping-bag.png" /></i>
               <Link href="/services#store"><b type="button">Изработка на онлайн магазин с интегрирана платежна система.</b></Link>
 
 
             </div>
             <div className="col-sm col-rev">
-              <i><img className="rev-icons" src="https://i.postimg.cc/1RKMBGK7/seo.png" /></i>
+              <i><img className="rev-icons" alt="Seo optimization" src="static/seo.png" /></i>
               <Link href="/services#seo"><b type="button">SEO (Search Engine Optimization) оптимизация за търсачки</b></Link>
 
             </div>
@@ -64,17 +66,17 @@ export default function Home() {
 
           <div className="row text-center">
             <div className="col-sm col-rev">
-              <i><img className="rev-icons" src="https://i.postimg.cc/52X3fZWD/test.png" /></i>
+              <i><img className="rev-icons" alt="mobile application" src="static/phone.png" /></i>
               <Link href="/services#mobile"><b type="button">Мобилно Приложение</b></Link>
 
             </div>
             <div className="col-sm col-rev">
-              <i><img className="rev-icons" src="https://i.postimg.cc/Zqc025Dm/ads-1.png" /></i>
+              <i><img className="rev-icons" alt="advertising" src="static/ad.png" /></i>
               <Link href="/services#advertising"><b type="button">Интернет Реклама</b></Link>
 
             </div>
             <div className="col-sm col-rev">
-              <i><img className="rev-icons" src="https://i.postimg.cc/BQYp9Jkx/technical-support.png" /></i>
+              <i><img className="rev-icons" alt="monthly support" src="static/technical-support.png" /></i>
               <Link href="/services#support"><b type="button">Месечна Поддръжка</b></Link>
 
             </div>

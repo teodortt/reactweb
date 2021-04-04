@@ -23,19 +23,6 @@ const AboutPage = () => {
         }, 3000);
     }, [show]);
 
-    function sendEmail(e) {
-        e.preventDefault();
-
-        emailjs.sendForm('service_azblda7', 'template_0ni70ar', e.target, 'user_eW5yZ8izC59xnly9aF67d')
-            .then((result) => {
-                console.log(result.text);
-                setShow(true);
-
-            }, (error) => {
-                console.log(error.text);
-            });
-    }
-
     return (
         <div className="gradient-image text-white" style={{ paddingTop: '120px' }}>
             <h1>За нас</h1>

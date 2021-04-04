@@ -32,7 +32,7 @@ export const Nav = () => {
             <div className="nav-header">
                 <div className="nav-title" role="button">
                     <a href="/">
-                        <img width={'70px'} src="https://snipboard.io/U2DrMW.jpg" alt="Logo" />
+                        <img width={'70px'} src="static/logo.png" alt="Logo" />
                     </a>
                 </div>
             </div>
@@ -49,7 +49,7 @@ export const Nav = () => {
                 <Link href="/services"><a className={router.pathname == "/services" ? "active" : ""}>Услуги</a></Link>
                 {/* <Link href="/portfolio"><a className={router.pathname == "/portfolio" ? "active" : ""}>Портфолио</a></Link> */}
                 <Link href="/about"><a className={router.pathname == "/about" ? "active" : ""}>За нас</a></Link>
-                <Link href="/contacts"><a className={router.pathname == "/about" ? "active" : ""}>Контакти</a></Link>
+                <Link href="/contacts"><a className={router.pathname == "/contacts" ? "active" : ""}>Контакти</a></Link>
             </div>
         </div>
     );
