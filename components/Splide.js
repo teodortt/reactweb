@@ -19,7 +19,22 @@ const SplideJSAbout = () => {
                     640: {
                         perPage: 1,
                         fixedHeight: 150,
-                        fixedWidth: 280
+                        fixedWidth: 240
+                    },
+                    480: {
+                        perPage: 1,
+                        fixedHeight: 150,
+                        fixedWidth: 290
+                    },
+                    400: {
+                        perPage: 1,
+                        fixedHeight: 150,
+                        fixedWidth: 250
+                    },
+                    360: {
+                        perPage: 1,
+                        fixedHeight: 120,
+                        fixedWidth: 200
                     },
                 }
             }}

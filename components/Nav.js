@@ -32,7 +32,7 @@ export const Nav = () => {
             <div className="nav-header">
                 <div className="nav-title" role="button">
                     <a href="/">
-                        <img width={'70px'} src="static/logo.png" alt="Logo" />
+                        <img width={'70px'} src="static/logonew.png" alt="Logo" />
                     </a>
                 </div>
             </div>

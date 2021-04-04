@@ -6,13 +6,19 @@ const Services = () => {
         document.title = 'Услуги - Изработка на Уебсайт, Онлайн Магазин, Уеб Дизайн, СЕО Оптимизация'
     }, [])
 
+    React.useEffect(() => {
+        if (window.location.href.indexOf('#') > -1) {
+            document.getElementById("gridcolumns").style.marginTop = "150px";
+        }
+    }, [])
+
     return (
         <div className="mx-auto text-center pt-5 blue-image">
 
-            <div className="wrapper pt-4">
+            <div id="gridcolumns" className="wrapper mt7 pt-4">
                 {/* <section> */}
                 <div className="section-title text-center text-white h4 pb-2">
-                    <p>Изработка и уеб дизайн от ReactWeb.info</p>
+                    <h1 className="h2">Изработка и уеб дизайн от ReactWeb.info</h1>
                     <div id="website" className="h5">Изработка на фирмен уебсайт или онлайн магазин с индивидуален дизайн и система за управление на съдържанието(CMS) на достъпна цена</div>
                 </div>
 
@@ -79,6 +85,13 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+            <style jsx>
+                {`
+                .mt7{
+                    margin-top:5%;
+                    }
+                  `}
+            </style>
         </div>
     )
 }
