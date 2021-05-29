@@ -1,11 +1,12 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import dynamic from "next/dynamic";
+import Head from "next/head";
 
 const AboutPage = () => {
 
-    React.useEffect(() => {
-        document.title = 'За нас - Уеб Дизайн, СЕО Оптимизация, Онлайн Магазин, Реклама'
-    }, [])
+    // useEffect(() => {
+    //     document.title = 'За нас - Уеб Дизайн, СЕО Оптимизация, Онлайн Магазин, Реклама'
+    // }, [])
 
     const [show, setShow] = useState(false);
     const Gallery = dynamic(
@@ -24,6 +25,12 @@ const AboutPage = () => {
 
     return (
         <div className="gradient-image text-white" style={{ paddingTop: '120px' }}>
+            <Head>
+                <title>За нас - Уеб Дизайн, СЕО Оптимизация, Онлайн Магазин, Реклама, Дигитални Услуги</title>
+                <meta name="description" content="Изграждане на Уебсайт, Онлайн Магазин, СЕО Оптимизация и Реклама на достъпна цена. Дигитален маркетинг, Изградете сайт за вашата фирма" />
+                <meta name="keywords" content="Онлайн магазин, Уебсайт, Уеб дизайн, Изработка, Wordpress, Opencart, Реклама, евтин уебсайт, Google adwords, graphic design, web developer, фирмен уебсайт" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <h1>За нас</h1>
 
             <main class="container-fluid">
@@ -44,7 +51,11 @@ const AboutPage = () => {
 
                         <b> Програмни езици</b>
                         <p>
-                            JavaScript, HTML 5, CSS, JavaScript, jQuery, Ajax, XML
+                            HTML5, CSS, JavaScript(jQuery), PHP, XML
+                        </p>
+                        <b>Frameworks</b>
+                        <p>
+                            Bootstrap, ReactJS, NextJS, Laravel
                         </p>
                         <b>CMS системи</b>
                         <p>

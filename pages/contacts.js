@@ -1,11 +1,12 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import emailjs from 'emailjs-com';
+import Head from 'next/head';
 const Contacts = () => {
     const [show, setShow] = useState(false);
 
-    React.useEffect(() => {
-        document.title = 'Контакти - WebDesign, Онлайн Магазин, Реклама, Маркетинг- ReactWeb.INFO'
-    }, [])
+    // useEffect(() => {
+    //     document.title = 'Контакти - WebDesign, Онлайн Магазин, Реклама, Маркетинг- ReactWeb.INFO'
+    // }, [])
 
     useEffect(() => {
         // when the component is mounted, the alert is displayed for 3 seconds
@@ -29,13 +30,19 @@ const Contacts = () => {
 
     return (
         <div className="gradient-image text-white" style={{ paddingTop: '120px', minHeight: '100vh' }}>
+            <Head>
+                <title>Контакти - Бърза и качествена изработка на Уеб сайт, Уеб Дизайн, Онлайн Магазин, Реклама, Маркетинг - ReactWeb.INFO</title>
+                <meta name="description" content="Изработка на Уебсайт, Онлайн Магазин, Дигитално присъствие за вашата фирма, СЕО Оптимизация и Реклама на достъпна цена. Дигитален маркетинг" />
+                <meta name="keywords" content="Онлайн магазин, Уебсайт, Уеб дизайн, Изработка, Wordpress, Opencart, Реклама, евтин уебсайт, Google adwords, graphic design, web developer" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <h1>Връзка с нас</h1>
 
             <main class="container-fluid">
                 <div className="row">
                     <div className="col-sm pb-3 pt-4">
                         <p>Мобилен номер: <b>0885124690 / 0885629736</b></p>
-                        <p>Email: <a style={{ color: 'white' }} href="mailto:admin@reactweb.info">admin@reactweb.info</a></p>
+                        <p>Email: <a style={{ color: 'white' }} href="mailto:contact@reactweb.info">contact@reactweb.info</a></p>
                     </div>
                 </div>
 
